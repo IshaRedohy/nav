@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+}
+
+header {
+    /*background: #b3a2a2;*/
+}
+
+.container {
+    width: 1240px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 20%;
+    max-width: 20%;
+}
+
+.logo img {
+}
+
+nav {
+    flex-basis: 80%;
+    max-width: 80%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    display: flex;
+    /* list-style: none; */
+}
+
+nav ul li {
+    /* padding: 10px; */
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+.banner1{
+	background-image:  url(../images/pic1.jpg);/*folder theke ber howa */
+	text-align: center;
+	padding: 130px 15%;
+	background-attachment: fixed;
+	background-size: cover; /*pic choto hoile cover kore fele */
+}
+
+.banner2{
+	background-image:  url(../images/pic2.jpg);/*folder theke ber howa */
+	text-align: center;
+	padding: 130px 15%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.banner3{
+	background-image:  url(../images/pic3.jpg);/*folder theke ber howa */
+	text-align: center;
+	padding: 130px 15%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.banner4{
+	background-image:  url(../images/pic4.jpg);/*folder theke ber howa */
+	text-align: center;
+	padding: 130px 15%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.banner5{
+	background-image:  url(../images/pic5.jpg);/*folder theke ber howa */
+	text-align: center;
+	padding: 130px 15%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.banner6{
+	background-image:  url(../images/pic6.jpg);/*folder theke ber howa */
+	text-align: center;
+	padding: 130px 15%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+img{
+	max-width: 100%;
+}
+h1{
+	margin: 0;
+	font-size: 60px;
+	/* text-transform: lowercase; */
+	text-decoration: none;
+}
+p{
+	font-size: 20px;
+	line-height: 1.6;
+	color: #ecdada;
+}
+
+.content-box{
+	background: #352c2c5c;
+	padding: 30px 50px;
+	color: #fff;
+}
